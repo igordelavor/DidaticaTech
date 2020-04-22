@@ -1,0 +1,20 @@
+BOXPLOT
+
+Objetivo: Identificar os outliers num conjunto de dados
+
+LS = Q3 + 1.5*(Q3 - Q1)
+LI = Q1 - 1.5*(Q3 - Q1)
+
+Dados: (-2,3,5,8,9,11,13,14,15,17,35)
+
+mediana = 11 -> ponto médio dos dados(índice)
+
+Q1 = 5 -> quartil inferior(ponto medio dos dados inferiores)
+
+Q3 = 15 -> quartil superior(ponto medio dos dados superiores)
+
+LS = 15 + 1.5*(10) = 30
+
+LI = 5 - 1.5*(10) = -10
+
+Como o Limite superior é 30, o ponto de valor 35 é considerado um outlier.
